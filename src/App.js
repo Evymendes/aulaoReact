@@ -12,6 +12,7 @@ import Palavras from './PalavraMaiorMenor';
 import Search from './components/pesquisaInput/Search';
 import Table from './components/pesquisaInput/Table';
 import TestApi from './components/testApi';
+import ClassesES6 from './components/ClassesES6';
 
 
 const lista = [ 
@@ -250,6 +251,7 @@ class App extends Component {
           <input placeholder="Digite..." className="input"/>
           <button title="enter" className="button2" />
           <p>oi</p>*/}
+          <ClassesES6 />
        </div>
     );
   }
